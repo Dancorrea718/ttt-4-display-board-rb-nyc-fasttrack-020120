@@ -7,9 +7,9 @@ def display_board(the_board)
 end
 
 display_board(turn_1)
-
+puts "END OF TURN 1"
 turn_2 = ["x", "", "", "", "O", "", "", "", ""]
 
 display_board(turn_2)
-
+puts "END OF TURN 2"
 move("x", 1)
